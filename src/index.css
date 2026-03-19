@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+body.dark-mode {
+  background-color: #0f0f0f;
+  color: #ffffff;
+}
+body.dark-mode .text-gray-500 { color: #aaaaaa !important; }
+body.dark-mode .text-gray-400 { color: #cccccc !important; }
+body.dark-mode .text-gray-700 { color: #e5e5e5 !important; }
+body.dark-mode .text-gray-800 { color: #ffffff !important; }
+
+
+body.dark-mode .text-black { color: #ffffff !important; }
+
+body.dark-mode svg {
+  color: #ffffff !important;
+  fill: #ffffff !important;
+}
+
+body.dark-mode .hover\:bg-gray-200:hover {
+  background-color: #272727 !important;
+}
+
+body.dark-mode .hover\:bg-gray-50:hover {
+  background-color: #272727 !important;
+}
+
+body.dark-mode .bg-white {
+  background-color: #181818 !important;
+}
+
+body.dark-mode .bg-gray-100 {
+  background-color: #202020 !important;
+}
+
+body.dark-mode .bg-gray-200 {
+  background-color: #272727 !important;
+}
+
+body.dark-mode .border-gray-200 { border-color: #444 !important; }
+body.dark-mode .border-gray-300 { border-color: #555 !important; }
+
+body.dark-mode input {
+  background-color: #121212 !important;
+  color: #ffffff !important;
+  border-color: #444 !important;
+}
+
+body.dark-mode .bg-white  {
+  color: #ffffff !important;
+}
+
+body.dark-mode textarea {
+  color: #ffffff !important;
+  background-color: #121212 !important;
+}
+
+body.dark-mode textarea::placeholder {
+  color: #aaaaaa !important;
+}
